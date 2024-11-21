@@ -1,8 +1,8 @@
-#Cab Booking System
+##Cab Booking System
 
 This is a command-line cab booking system implemented in C++. The system uses Dijkstra's algorithm to calculate the shortest distance between locations and books the closest available cab for the user. It also handles dynamic cab availability and includes functionalities for customer booking and location management.
 
-## Features
+### Features
 
 - *Shortest Path Calculation*: Uses Dijkstra's algorithm to determine the shortest path between locations.
 - *Dynamic Cab Availability*: Tracks cab availability and resets all cabs to available after a set threshold of bookings.
@@ -10,21 +10,21 @@ This is a command-line cab booking system implemented in C++. The system uses Di
 - *Customer and Booking Management*: Tracks customers and their bookings, including pickup and drop-off locations.
 - *Input Validation*: Ensures valid input for locations and prevents bookings with the same pickup and drop-off points.
 
-## How It Works
+### How It Works
 
 1. *Locations*: Locations are represented as nodes (e.g., 'a', 'b') with human-readable names (e.g., 'Westminster', 'Camden Town').
 2. *Cabs*: Cabs have unique IDs, driver names, car types, current locations, and availability status.
 3. *Booking*: Users provide their current location and destination. The system assigns the closest available cab.
 4. *Threshold Handling*: When the number of bookings reaches a threshold, all cabs are reset to available status.
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 - A C++ compiler (e.g., g++).
 - Basic understanding of how to run C++ programs.
 
-### Running the Program
+#### Running the Program
 
 1. *Clone the Repository*:
 
@@ -49,7 +49,7 @@ This is a command-line cab booking system implemented in C++. The system uses Di
 
     The program will prompt you to choose options for booking cabs or exiting the system.
 
-## Usage
+### Usage
 
 1. On running the program, choose an option:
     - 1: Book a cab.
