@@ -27,11 +27,7 @@ This is a command-line cab booking system implemented in C++. The system uses Di
 #### Running the Program
 
 1. *Clone the Repository*:
-
-    bash
-    git clone https://github.com/<your-username>/cab-booking-system.git
-    cd cab-booking-system
-    
+   
 
 2. *Compile the Code*:
 
